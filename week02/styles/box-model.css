@@ -1,0 +1,39 @@
+.callout {
+  max-width: 400px;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background-color: darkblue;
+  color: white;
+}
+blockquote {
+  background-color: darkblue;
+  padding: 20px 0px 20px 5px;
+  /*padding: 40px 80px 20px 5px;*/
+  margin: 0px;
+}
+p {
+  color: white;
+  /*display: block;*/
+  padding: 0px 0px 10px;
+  margin: 0px;
+}
+cite {
+  display: block;
+  background-color: darkblue;
+  color: white;
+  text-align: right;
+  font-size: smaller;
+  padding: 5px 0px 0px 0px;
+  margin: 0px;
+  border-top: 2px dotted white;
+}
+img {
+  float: right;
+  margin: 0 0 10px 15px;
+  border: 1px solid gray;
+  padding: 3px;
+  background-color: gray;
+  width: 100px;
+  height: auto;
+}
