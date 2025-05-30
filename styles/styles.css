@@ -1,5 +1,10 @@
-:root {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/*:root {
+}*/
 nav {
   background-color: darkblue;
   padding: 10px;
@@ -27,11 +32,6 @@ main {
 }
 aside {
   width: 20rem;
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.2);
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
   text-align: center;
 }
 aside img {
@@ -41,6 +41,7 @@ aside img {
 main img {
   width: 150px;
   height: auto;
+  float: right; /* It puts my photo to the right */
 }
 p {
   padding: 0;
@@ -49,4 +50,17 @@ footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+}
+/* Class Selector */
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+aside h2 {
+  position: absolute;
+  left: 110px;
+  top: 420px;
 }
