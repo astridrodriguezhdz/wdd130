@@ -65,7 +65,7 @@ article {
 .hero article img {
   float: right;
   width: 125px;
-  margin: 3 0 0px 3px;
+  margin: 3px 0px 0px 3px;
   border: 10px solid var(--accent2-color);
   padding: 3px;
   background-color: gray;
