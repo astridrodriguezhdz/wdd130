@@ -35,3 +35,55 @@ article {
 .socialmedia a {
   text-decoration: none;
 }
+.hero {
+  position: relative;
+}
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 98.8%; /* I used it instead of 100% because the h1 in 100% was larger than my hero img */
+  padding: 6px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #3d4242;
+}
+article {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  background-color: var(--accent2-color);
+  color: #fff;
+}
+.hero article img {
+  float: right;
+  width: 125px;
+  margin: 3 0 0px 3px;
+  border: 10px solid var(--accent2-color);
+  padding: 3px;
+  background-color: gray;
+  width: 100px;
+  height: 60px;
+}
+
+/*#article-image {
+  top: 180px;
+  float: right;
+  margin: 20 0 10px 5px;
+  border: 10px solid var(--accent2-color);
+  padding: 3px;
+  background-color: gray;
+  width: 100px;
+  height: 50px;} */
+/* This works when I have an id in the html for the image of the article ;
+  like the following:
+  src="images/happy-clients-small-image.jpg"
+            id="article-image"
+            alt="Happy clients"*/
