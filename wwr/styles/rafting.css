@@ -6,3 +6,7 @@
   --heading-font: "Libre Franklin", sans-serif;
   --body-font: "Crimson Text", sans-serif;
 }
+header {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+}
