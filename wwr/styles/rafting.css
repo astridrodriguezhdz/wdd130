@@ -4,7 +4,7 @@
   --accent1-color: #efc300;
   --accent2-color: #3c6f6f;
   --heading-font: "Libre Franklin", sans-serif;
-  --body-font: "Crimson Text", sans-serif;
+  --body-font: "Crimson Text", serif;
 }
 header {
   background-color: var(--primary-color);
