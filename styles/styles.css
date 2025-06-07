@@ -5,17 +5,23 @@
 }
 /*:root {
 }*/
+header, .grid , footer { max-width: 840px; margin:0 auto;}
 nav {
   background-color: darkblue;
   padding: 10px;
+  display: flex; justify-content: space-evenly; align-items: center;
 }
 nav a {
   color: white;
   display: block;
-  padding: 20px;
+  padding: .5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 h1 {
   color: darkblue;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
 }
 img {
   width: 150px;
@@ -62,7 +68,8 @@ footer {
 aside h2 {
   position: absolute;
   left: 110px;
-  top: 420px;
+  top: 345px;
+  
 }
 /* This is for the withwaters project dessign */
 primary
