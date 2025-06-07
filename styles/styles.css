@@ -18,6 +18,8 @@ nav a {
   font-size: 1.2rem;
   font-weight: 700;
 }
+.grid{display: grid; align-items: center;}
+
 h1 {
   color: darkblue;
   border-bottom: 2px solid black;
@@ -34,11 +36,14 @@ p {
   padding: 10px;
 }
 main {
-  max-width: 840px;
+  max-width: 840px; 
+  grid-column: 2/3;
 }
 aside {
   width: 20rem;
-  text-align: center;
+  text-align: center; 
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 aside img {
   width: 200px;
