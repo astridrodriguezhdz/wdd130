@@ -6,6 +6,7 @@
   --heading-font: "Libre Franklin", sans-serif;
   --body-font: "Crimson Text", serif;
 }
+
 header,
 nav {
   background-color: var(--primary-color);
@@ -75,10 +76,24 @@ h2 {
   text-align: center;
 }
 .five-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
+
+figure {
+  border: thin #c0c0c0 solid;
+  padding: 5px;
+  max-width: 100%;
+  gap: 10px;
+  margin: auto;
+}
+
+/*.image-big-one {
+  width: 1px;
+}*/
+
 article {
   position: absolute;
   top: 200px;
