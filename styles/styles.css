@@ -5,20 +5,30 @@
 }
 /*:root {
 }*/
-header, .grid , footer { max-width: 840px; margin:0 auto;}
+header,
+.grid,
+footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
 nav {
   background-color: darkblue;
   padding: 10px;
-  display: flex; justify-content: space-evenly; align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 nav a {
   color: white;
   display: block;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.2rem;
   font-weight: 700;
 }
-.grid{display: grid; align-items: center;}
+.grid {
+  display: grid;
+  align-items: center;
+}
 
 h1 {
   color: darkblue;
@@ -36,12 +46,12 @@ p {
   padding: 10px;
 }
 main {
-  max-width: 840px; 
+  max-width: 840px;
   grid-column: 2/3;
 }
 aside {
   width: 20rem;
-  text-align: center; 
+  text-align: center;
   grid-column: 1/2;
   grid-row: 1/2;
 }
@@ -74,7 +84,5 @@ aside h2 {
   position: absolute;
   left: 335px;
   top: 92px;
-  
 }
 /* This is for the withwaters project dessign */
-primary
