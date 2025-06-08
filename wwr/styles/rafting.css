@@ -1,7 +1,7 @@
 :root {
   --primary-color: #3d6e35;
   --secondary-color: #a1c4d1;
-  --accent1-color: #efc300;
+  --accent1-color: #5e7c05;
   --accent2-color: #3c6f6f;
   --heading-font: "Libre Franklin", sans-serif;
   --body-font: "Crimson Text", serif;
@@ -31,6 +31,18 @@ nav {
   justify-content: flex-end;
   align-items: center;
 }
+nav a {
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+  padding: 4.7px 10px;
+  border: 1px solid black;
+}
+
+nav a:hover {
+  background-color: #eee;
+}
+/* ":" are the estados. "hover" indicates the action that the object is going to take when the mouse is over that object */
 .logo {
   margin-top: 9px;
   margin-bottom: 3px;
@@ -81,9 +93,9 @@ h1 {
   width: 98.8%; /* I used it instead of 100% because the h1 in 100% was larger than my hero img */
   padding: 6px;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.8;
   background-color: var(--accent1-color);
-  color: #3d4242;
+  color: white;
 }
 h2 {
   text-align: center;
@@ -147,9 +159,12 @@ article {
 .p2 {
   grid-column-start: 3;
 }
+.adventure {
+  margin-top: 80px;
+}
 .socialmedia img {
-  width: 60px;
-  padding: 10px;
+  width: 40px;
+  padding: 3px;
   display: flex;
   justify-content: space-around;
 }
@@ -165,5 +180,5 @@ article {
 /* This works when I have an id in the html for the image of the article ;
   like the following:
   src="images/happy-clients-small-image.jpg"
-            id="article-image"
+          id="article-image"
             alt="Happy clients"*/
