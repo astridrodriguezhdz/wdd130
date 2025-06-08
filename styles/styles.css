@@ -79,10 +79,12 @@ footer {
   padding: 1rem;
   background-color: #ddd;
   color: #000;
+  position: relative;
 }
 aside h2 {
   position: absolute;
-  left: 335px;
-  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 22.5px;
 }
 /* This is for the withwaters project dessign */
