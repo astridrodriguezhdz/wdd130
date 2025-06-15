@@ -31,6 +31,9 @@ nav {
   justify-content: flex-end;
   align-items: center;
 }
+.moqups {
+  justify-content: flex-start;
+}
 nav a {
   background-color: #fff;
   text-decoration: none;
