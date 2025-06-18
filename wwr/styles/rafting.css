@@ -172,16 +172,93 @@ article {
   justify-content: space-around;
 }
 .gotrips {
-  background-color: ;
+  background-color: #cdb200;
   padding: 4.7px 10px;
-  border: 1px solid;
+  border: 1px solid #ffdf00;
+  margin: auto;
+  display: inline-block;
+  grid-column-start: 2;
+}
+.gotrips:hover {
+  background-color: #b8a314;
+}
+
+.gotrips a {
+  text-decoration: none;
 }
 .trip {
   display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr;
   width: 840px;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
-.popular section {
+.popular,
+.triptable {
+  margin: 0px;
+  padding: 0px;
+}
+.popular > section {
   display: flex;
+  /*max-height: 240px;*/
+  min-width: 360px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.ptrips h3,
+.ppopular h3,
+.pmost h3 {
+  writing-mode: sideways-lr;
+  text-align: center;
+  background: gainsboro;
+  margin: 13px;
+}
+.ptrips img,
+.ppopular img,
+.pmost img {
+  width: 100px;
+  object-fit: none;
+}
+.ptrips p,
+.ppopular p,
+.pmost p {
+  margin: 0px;
+  font-size: small;
+}
+.holidays img {
+  width: 90px;
+  margin-left: 3px;
+}
+.holidays {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 80%;
+}
+.trip h4 {
+  font-weight: normal;
+  margin: 0px;
+}
+.ptrips section,
+.ppopular section,
+.pmost section {
+  margin: 0px;
+}
+table {
+  border: 1px solid rgb(140, 140, 140);
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 5px;
+  width: 90%;
+}
+th,
+td {
+  border: 1px solid rgb(160, 160, 160);
+  padding: 2px 5px;
+}
+th,
+thead {
+  background-color: rgb(228, 240, 245);
+  text-align: left;
 }
