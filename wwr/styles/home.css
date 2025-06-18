@@ -1,0 +1,144 @@
+section.home {
+  max-width: 840px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0 auto;
+  position: relative;
+}
+
+.home-quetions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 0;
+}
+
+.home-quetions .questions {
+  display: flex;
+  gap: 10px;
+}
+
+.question-image {
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.question-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.formhome {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.formhome img {
+  width: 320px;
+}
+
+.questions h2 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.questions {
+  margin-right: 0;
+}
+
+.questions p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  max-height: 45px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin: 0;
+}
+
+.meditation img {
+  width: 100%;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 1px solid #000;
+  padding-top: 10px;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.newsletter-title {
+  width: 100%;
+  text-align: center;
+  background-color: #BBD6AC;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-group {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-container button {
+  margin-left: auto;
+  background-color: #FEC63E;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background-color: #BBD6AC;
+}
+
+.tripsite {
+  margin: 0;
+  padding: 0;
+  min-width: 120px;
+  margin-top: 20px;
+}
+
+.tripsite a {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #FEC63E;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tripsite a:hover {
+  background-color: #BBD6AC;
+}
+
