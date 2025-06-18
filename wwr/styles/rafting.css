@@ -182,6 +182,12 @@ article {
 .gotrips:hover {
   background-color: #b8a314;
 }
+.forms {
+  background-color: #cdb200;
+}
+.forms:hover {
+  background-color: #b8a314;
+}
 
 .gotrips a {
   text-decoration: none;
@@ -261,4 +267,44 @@ th,
 thead {
   background-color: rgb(228, 240, 245);
   text-align: left;
+}
+.getintouch {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  width: 840px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.employees img {
+  width: 100px;
+  gap: 10px;
+}
+.employees {
+  display: flex;
+  justify-content: center;
+}
+.employeessection h2 {
+  margin-bottom: 10px;
+}
+.contactinfo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  place-items: center;
+  margin-top: 50px;
+}
+.map {
+  place-items: center;
+}
+
+.contacticon a {
+  text-decoration: none;
+  grid-row-start: 2;
+}
+.map iframe {
+  width: 200px;
+  height: 200px;
+}
+.contact {
+  margin-top: 0px;
 }
