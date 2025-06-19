@@ -266,7 +266,7 @@ td {
 }
 th,
 thead {
-  background-color: rgb(228, 240, 245);
+  background-color: gainsboro;
   text-align: left;
 }
 .getintouch {
@@ -355,7 +355,8 @@ section.home {
 .titlecolor {
   width: 100%;
   text-align: center;
-  background-color: #bbd6ac;
+  background-color: #627656;
+  color: white;
   display: block;
 }
 .formbutton {
@@ -427,7 +428,8 @@ section.home {
 .newsletter-title {
   width: 100%;
   text-align: center;
-  background-color: #bbd6ac;
+  background-color: #627656;
+  color: white;
 }
 
 .form-container {
